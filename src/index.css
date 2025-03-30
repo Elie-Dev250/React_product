@@ -59,4 +59,13 @@ a.active{
   
 
   align-items: center;
+}.but button{
+  background-color: dodgerblue;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}.but h1{
+  color: red;
 }
