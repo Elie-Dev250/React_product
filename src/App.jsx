@@ -8,10 +8,11 @@ import About from './pages/About'
 import ContactLayout from './layout/ContactLayout'
 import Contactinfo from './components/Contactinfo'
 import Contactform from './components/Contactform'
+import ComponentA from './ComponentA'
 
 function App() {
   return (
-    <div>
+   <>
       <Navbar/>
 
       <div className='container'>
@@ -27,7 +28,12 @@ function App() {
       </Routes>
       </div>
 
-    </div>
+      <ComponentA/>
+      <Navbar/>
+      <ComponentA/>
+      
+</>
+    
   )
 }
 

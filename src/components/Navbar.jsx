@@ -17,7 +17,7 @@ function Navbar() {
        
       </ul>
 
-      <button onClick={()=>navigate('/about',{replace:true})}>Get started</button>
+      <button onClick={()=>navigate('/',{replace:true})}>Back to home</button>
     </div>
   )
 }
