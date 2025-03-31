@@ -29,8 +29,8 @@ function App() {
       </div>
 
       <ComponentA/>
-      <Navbar/>
-      <ComponentA/>
+      
+     
       
 </>
     

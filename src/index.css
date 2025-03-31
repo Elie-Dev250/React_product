@@ -72,4 +72,9 @@ a.active{
   border: 3px solid;
   padding: 25px;
 
+}.tools{
+  width: 100%;
+  padding: 90px;
+  background-color: rgb(126, 198, 170);
 }
+ 
